@@ -7,7 +7,7 @@ namespace Models
 	public class ArtDataSource
 	{
 
-		public static string GetDailyArtQuote(int quoteID)
+		public static string GetTheDailyArtQuote(int quoteID)
 		{
 
 			switch (quoteID)
@@ -15,9 +15,9 @@ namespace Models
 				case 1:
 					return "You don’t take a photograph, you make it. - Ansel Adams";
 				case 2:
-					return "Creativity takes courage. - Henri Matisse";
+				   	return "Creativity takes courage. - Henri Matisse";
                 case 3:
-                    return "The purpose of art is washing the dust of daily life off our souls. - Pablo Picasso";
+                       return "The purpose of art is washing the dust of daily life off our souls. - Pablo Picasso";
                 default:
 					return "Painting is easy when you don’t know how, but very difficult when you do. - Edgar Degas.";
 
